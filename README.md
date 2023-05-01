@@ -22,3 +22,7 @@ samples, guidance on mobile development, and a full API reference.
 - Join the discussion and conversation on https://flutlab.io/residents
 
 If you have some questions regarding FlutLab, you can ask on https://flutlab.io/faq
+
+## Inspo
+https://github.com/fabiomsr/Flutter-StepByStep/blob/master/step5/lib/module/contacts/contact_list_view.dart
+https://github.com/DarkSmile92/bloodhound/blob/master/lib/screens.dart
