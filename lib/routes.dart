@@ -1,5 +1,5 @@
-import 'package:helloworld/main.dart';
-import 'package:helloworld/screens.dart';
+import 'package:wohlfuehloase/main.dart';
+import 'package:wohlfuehloase/screens.dart';
 
 class Routes {
   static const String wellness = WellnessScreen.routeName;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:helloworld/routes.dart';
-import 'package:helloworld/screens.dart';
+import 'package:wohlfuehloase/routes.dart';
+import 'package:wohlfuehloase/screens.dart';
 
 import 'constants.dart';
 import 'objects.dart';
