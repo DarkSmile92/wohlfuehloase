@@ -1,5 +1,6 @@
 import 'package:wohlfuehloase/main.dart';
-import 'package:wohlfuehloase/screens.dart';
+import 'package:wohlfuehloase/screens/screenWellness.dart';
+import 'package:wohlfuehloase/screens/screenHome.dart';
 
 class Routes {
   static const String wellness = WellnessScreen.routeName;

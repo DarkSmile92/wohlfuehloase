@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:wohlfuehloase/routes.dart';
-import 'package:wohlfuehloase/screens.dart';
+import 'package:wohlfuehloase/screens/screenHome.dart';
+import 'package:wohlfuehloase/screens/screenWellness.dart';
 
 import 'constants.dart';
 import 'objects.dart';
