@@ -128,7 +128,7 @@ class _WellnessListState extends State<WellnessList> {
     _isLoading = false;
     _entries = [
       WellnessEntry("a", "Robin & Natalie", "01.05.2023 // 15:30 - 16:00"),
-      WellnessEntry("a", "Silvia & Peter", "01.05.2023 // 16:00 - 16:30")
+      WellnessEntry("b", "Silvia & Peter", "01.05.2023 // 16:00 - 16:30")
     ];
   }
 
