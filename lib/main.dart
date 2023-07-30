@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wohlfuehloase/routes.dart';
+import 'package:wohlfuehloase/screens/screenGuides.dart';
 import 'package:wohlfuehloase/screens/screenHome.dart';
 import 'package:wohlfuehloase/screens/screenWellness.dart';
 
@@ -23,7 +24,8 @@ class MyApp extends StatelessWidget {
       home: HomePage(title: 'Wohlfühloase'),
       routes: {
         Routes.wellness: (context) => WellnessScreen(),
-        Routes.home: (context) => HomePage(title: 'Wohlfühloase')
+        Routes.home: (context) => HomePage(title: 'Wohlfühloase'),
+        Routes.guides: (context) => GuidesScreen()
       },
     );
   }

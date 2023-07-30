@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
+import '../services.dart';
+
 class NewGuideWidget extends StatefulWidget {
   @override
   _NewGuideWidgetState createState() => _NewGuideWidgetState();
@@ -13,14 +15,18 @@ class _NewGuideWidgetState extends State<NewGuideWidget> {
 
   // Function to handle POST request
   Future<void> _sendData(String name, String description) async {
-    var url = Uri.parse('https://example.com/your_api_endpoint');
-    var response =
-        await http.post(url, body: {'name': name, 'description': description});
+    final GuideService guideService = GuideService();
+    final Map<String, dynamic> guide = {
+      'title': name,
+      'body': description,
+    };
+
+    final response = await guideService.createGuide(guide);
 
     if (response.statusCode == 200) {
-      print('Data sent successfully');
+      print('Guide created successfully');
     } else {
-      print('Failed to send data');
+      print('Failed to create guide');
     }
   }
 
